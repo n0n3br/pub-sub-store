@@ -1,5 +1,5 @@
 {
-  "name": "pub-sub-store",
+  "name": "@n0n3br/pub-sub-store",
   "version": "1.0.0",
   "description": "a publish subscribe pattern bases state store with sample component that can be used to build reactive javascript apps",
   "main": "index.js",
