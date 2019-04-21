@@ -109,7 +109,7 @@ const callback = state => console.log(`a value changed to ${state.a}`);
 const config = state => {
   return { a: state.a };
 };
-subscribe(fn, config);
+store.subscribe(fn, config);
 store.setState({ a: 2 });
 ```
 
