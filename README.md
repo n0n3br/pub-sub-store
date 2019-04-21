@@ -60,8 +60,6 @@ store.setState({ name: 'Rogerio', age: 44 });
 
 ## Examples
 
-There are two examples in the examples folder in this repository, one for nodejs and other for the browser.
-
 #### ES6
 
 ```javascript
@@ -114,6 +112,8 @@ const config = state => {
 subscribe(fn, config);
 store.setState({ a: 2 });
 ```
+
+There are two other examples in the repository. One of them is for [NodeJS](https://github.com/n0n3br/pub-sub-store/tree/master/example/node) and the other is a browser [todo app](https://github.com/n0n3br/pub-sub-store/tree/master/example/browser) that adds, remove and marks/unmarks tasks as done.
 
 ## Running the tests
 
