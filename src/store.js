@@ -17,6 +17,10 @@ class Store {
     return cloneDeep(this.#internalState);
   }
 
+  set state(value) {
+    return value;
+  }
+
   setState(v) {
     if (!isObject(v)) throw new Error('paramenter should be a object');
     const oldState = cloneDeep(this.#internalState);
