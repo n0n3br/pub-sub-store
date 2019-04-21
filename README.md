@@ -1,6 +1,6 @@
 # pub-sub-store
 
-![Build Status](https://travis-ci.com/n0n3br/pub-sub-store-deep.svg?branch=master)
+![Build Status](https://travis-ci.com/n0n3br/pub-sub-store.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/n0n3br/pub-sub-store/badge.svg)](https://coveralls.io/github/n0n3br/pub-sub-store)
 
 pub-sub-store is a small state manager store that can be used to manage application state providing reactivity through subscription method.
